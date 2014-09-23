@@ -49,9 +49,9 @@ class Article(PolymorphicModel):
         return reverse(
             '{}:detail'.format(self.namespace),
             kwargs={
-                'year': self.pub_date.year,
-                'month':self.pub_date.month,
-                'day':  self.pub_date.day,
+                'year': '{:%Y}'.format(self.pub_date),
+                'month':'{:%m}'.format(self.pub_date),
+                'day':  '{:%d}'.format(self.pub_date),
                 'slug': self.slug,
             },
         )

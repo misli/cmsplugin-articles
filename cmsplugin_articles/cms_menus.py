@@ -6,6 +6,7 @@ from datetime import datetime
 
 from cms.menu_bases import CMSAttachMenu
 from django.core.urlresolvers import reverse
+from django.utils import dateformat
 from django.utils.translation import ugettext_lazy as _
 from menus.base import NavigationNode
 
@@ -38,7 +39,7 @@ class ArticlesMenu(CMSAttachMenu):
 
                 if not pub_date.month in months:
                     months.append(pub_date.month)
-                    nodes.append(NavigationNode(datetime.strftime(pub_date, '%B'),
+                    nodes.append(NavigationNode(dateformat.format(pub_date, 'E'),
                         reverse('Articles:month', kwargs={
                             'year': pub_date.year,
                             'month': datetime.strftime(pub_date, '%m'),
