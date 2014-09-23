@@ -1,0 +1,7 @@
+<div class="article_preview">
+    <h2>
+        <a href="{{ article.get_absolute_url }}">{{ article.title }}</a>
+        <small>{{ article.pub_date }}</small>
+    </h2>
+    {{ article.perex | safe }}
+</div>

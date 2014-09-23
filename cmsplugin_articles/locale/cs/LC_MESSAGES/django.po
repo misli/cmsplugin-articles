@@ -1,0 +1,77 @@
+# CMSPlugin Articles translation.
+# Copyright (C) 2014 Jakub Dorňák <jakub.dornak@misli.cz>
+# This file is distributed under the same license as the cmsplugin-articles package.
+# Jakub Dorňák <jakub.dornak@misli.cz>, 2014.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-23 03:33+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jakub Dorňák <jakub.dornak@misli.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cms_app.py:14 cms_menus.py:16 cms_toolbars.py:13
+msgid "Articles"
+msgstr "Články"
+
+#: cms_toolbars.py:14
+msgid "List articles"
+msgstr "Spravovat články"
+
+#: cms_toolbars.py:15
+msgid "Add article"
+msgstr "Přidat článek"
+
+#: models.py:22
+msgid "Application instance"
+msgstr "Instance aplikace"
+
+#: models.py:23
+msgid "Title"
+msgstr "Nadpis"
+
+#: models.py:24
+msgid "Slug"
+msgstr "Identifikátor"
+
+#: models.py:25
+msgid "Publication date"
+msgstr "Datum publikování"
+
+#: models.py:26
+msgid "Perex"
+msgstr "Perex"
+
+#: models.py:28
+msgid "Page title"
+msgstr "Titulek stránky"
+
+#: models.py:29
+msgid "Overwrite the title (html title tag)"
+msgstr "Přepíše titulek stránky (html tag title)"
+
+#: models.py:30
+msgid "Menu title"
+msgstr "Titulek v menu"
+
+#: models.py:31
+msgid "Overwrite the title in the menu"
+msgstr "Přepíše titulek v menu"
+
+#: models.py:32
+msgid "Meta description"
+msgstr "Popis stránky"
+
+#: models.py:33
+msgid "The text displayed in search engines."
+msgstr "Text zobrazený ve vyhledávačích"
+
+#: models.py:34
+msgid "Public"
+msgstr "Veřejný"
