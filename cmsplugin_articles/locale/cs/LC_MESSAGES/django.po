@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-23 03:33+0200\n"
+"POT-Creation-Date: 2014-10-07 20:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Jakub Dorňák <jakub.dornak@misli.cz>\n"
 "Language: Czech\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: cms_app.py:14 cms_menus.py:16 cms_toolbars.py:13
+#: cms_app.py:14 cms_menus.py:17 cms_toolbars.py:13
 msgid "Articles"
 msgstr "Články"
 
@@ -75,3 +75,155 @@ msgstr "Text zobrazený ve vyhledávačích"
 #: models.py:34
 msgid "Public"
 msgstr "Veřejný"
+
+#: utils.py:69
+msgid "Monday"
+msgstr "pondělí"
+
+#: utils.py:69
+msgid "Tuesday"
+msgstr "úterý"
+
+#: utils.py:69
+msgid "Wednesday"
+msgstr "středa"
+
+#: utils.py:69
+msgid "Thursday"
+msgstr "čtvrtek"
+
+#: utils.py:69
+msgid "Friday"
+msgstr "pátek"
+
+#: utils.py:70
+msgid "Saturday"
+msgstr "sobota"
+
+#: utils.py:70
+msgid "Sunday"
+msgstr "neděle"
+
+#: utils.py:73
+msgid "Mon"
+msgstr "po"
+
+#: utils.py:73
+msgid "Tue"
+msgstr "út"
+
+#: utils.py:73
+msgid "Wed"
+msgstr "st"
+
+#: utils.py:73
+msgid "Thu"
+msgstr "čt"
+
+#: utils.py:73
+msgid "Fri"
+msgstr "pá"
+
+#: utils.py:74
+msgid "Sat"
+msgstr "so"
+
+#: utils.py:74
+msgid "Sun"
+msgstr "ne"
+
+#: utils.py:77
+msgid "January"
+msgstr "leden"
+
+#: utils.py:77
+msgid "February"
+msgstr "únor"
+
+#: utils.py:77
+msgid "March"
+msgstr "březen"
+
+#: utils.py:77
+msgid "April"
+msgstr "duben"
+
+#: utils.py:77
+msgid "May"
+msgstr "květen"
+
+#: utils.py:77
+msgid "June"
+msgstr "červen"
+
+#: utils.py:78
+msgid "July"
+msgstr "červenec"
+
+#: utils.py:78
+msgid "August"
+msgstr "srpen"
+
+#: utils.py:78
+msgid "September"
+msgstr "září"
+
+#: utils.py:78
+msgid "October"
+msgstr "říjen"
+
+#: utils.py:78
+msgid "November"
+msgstr "listopad"
+
+#: utils.py:79
+msgid "December"
+msgstr "prosinec"
+
+#: utils.py:82
+msgid "jan"
+msgstr "led"
+
+#: utils.py:82
+msgid "feb"
+msgstr "ún"
+
+#: utils.py:82
+msgid "mar"
+msgstr "bře"
+
+#: utils.py:82
+msgid "apr"
+msgstr "dub"
+
+#: utils.py:82
+msgid "may"
+msgstr "kvě"
+
+#: utils.py:82
+msgid "jun"
+msgstr "čer"
+
+#: utils.py:83
+msgid "jul"
+msgstr "čec"
+
+#: utils.py:83
+msgid "aug"
+msgstr "srp"
+
+#: utils.py:83
+msgid "sep"
+msgstr "zář"
+
+#: utils.py:83
+msgid "oct"
+msgstr "říj"
+
+#: utils.py:83
+msgid "nov"
+msgstr "lis"
+
+#: utils.py:83
+msgid "dec"
+msgstr "pro"
