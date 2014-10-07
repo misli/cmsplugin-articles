@@ -36,7 +36,10 @@ class Article(PolymorphicModel):
     public      = models.BooleanField(default=False, verbose_name=_('Public'))
 
     class Meta:
-        unique_together = [('pub_date', 'slug')]
+        ordering            = ('-pub_date',)
+        unique_together     = [('pub_date', 'slug')]
+        verbose_name        = _('Article')
+        verbose_name_plural = _('Articles')
 
     def __str__(self):
         return self.title
