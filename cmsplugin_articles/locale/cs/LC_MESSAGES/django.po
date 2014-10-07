@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-07 20:34+0200\n"
+"POT-Creation-Date: 2014-10-07 21:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Jakub Dorňák <jakub.dornak@misli.cz>\n"
 "Language: Czech\n"
@@ -16,9 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: cms_app.py:14 cms_menus.py:17 cms_toolbars.py:13
+#: cms_app.py:14 cms_menus.py:16 cms_toolbars.py:13
 msgid "Articles"
 msgstr "Články"
+
+#: cms_menus.py:41
+msgid "{:%B}"
+msgstr ""
 
 #: cms_toolbars.py:14
 msgid "List articles"
@@ -28,202 +32,230 @@ msgstr "Spravovat články"
 msgid "Add article"
 msgstr "Přidat článek"
 
-#: models.py:22
+#: models.py:24
 msgid "Application instance"
 msgstr "Instance aplikace"
 
-#: models.py:23
+#: models.py:25
 msgid "Title"
 msgstr "Nadpis"
 
-#: models.py:24
+#: models.py:26
 msgid "Slug"
 msgstr "Identifikátor"
 
-#: models.py:25
+#: models.py:27
 msgid "Publication date"
 msgstr "Datum publikování"
 
-#: models.py:26
+#: models.py:28
 msgid "Perex"
 msgstr "Perex"
 
-#: models.py:28
+#: models.py:30
 msgid "Page title"
 msgstr "Titulek stránky"
 
-#: models.py:29
+#: models.py:31
 msgid "Overwrite the title (html title tag)"
 msgstr "Přepíše titulek stránky (html tag title)"
 
-#: models.py:30
+#: models.py:32
 msgid "Menu title"
 msgstr "Titulek v menu"
 
-#: models.py:31
+#: models.py:33
 msgid "Overwrite the title in the menu"
 msgstr "Přepíše titulek v menu"
 
-#: models.py:32
+#: models.py:34
 msgid "Meta description"
 msgstr "Popis stránky"
 
-#: models.py:33
+#: models.py:35
 msgid "The text displayed in search engines."
 msgstr "Text zobrazený ve vyhledávačích"
 
-#: models.py:34
+#: models.py:36
 msgid "Public"
 msgstr "Veřejný"
 
-#: utils.py:69
+#: models.py:79 models.py:83
+msgid "Default"
+msgstr "Výchozí"
+
+#: models.py:88 plugins.py:12
+msgid "Article"
+msgstr "Článek"
+
+#: models.py:89 models.py:105
+msgid "Template"
+msgstr "Šablona"
+
+#: models.py:91 models.py:107
+msgid "The template used to render plugin."
+msgstr "Šablona použitá pro zobrazení položky obsahu."
+
+#: models.py:104
+msgid "Number of last articles"
+msgstr "Počet posledních článků"
+
+#: models.py:110
+msgid "last {} articles"
+msgstr "poslední {} články"
+
+#: plugins.py:27
+msgid "Last articles"
+msgstr "Poslední články"
+
+#: utils.py:70
 msgid "Monday"
 msgstr "pondělí"
 
-#: utils.py:69
+#: utils.py:70
 msgid "Tuesday"
 msgstr "úterý"
 
-#: utils.py:69
+#: utils.py:70
 msgid "Wednesday"
 msgstr "středa"
 
-#: utils.py:69
+#: utils.py:70
 msgid "Thursday"
 msgstr "čtvrtek"
 
-#: utils.py:69
+#: utils.py:70
 msgid "Friday"
 msgstr "pátek"
 
-#: utils.py:70
+#: utils.py:71
 msgid "Saturday"
 msgstr "sobota"
 
-#: utils.py:70
+#: utils.py:71
 msgid "Sunday"
 msgstr "neděle"
 
-#: utils.py:73
+#: utils.py:74
 msgid "Mon"
 msgstr "po"
 
-#: utils.py:73
+#: utils.py:74
 msgid "Tue"
 msgstr "út"
 
-#: utils.py:73
+#: utils.py:74
 msgid "Wed"
 msgstr "st"
 
-#: utils.py:73
+#: utils.py:74
 msgid "Thu"
 msgstr "čt"
 
-#: utils.py:73
+#: utils.py:74
 msgid "Fri"
 msgstr "pá"
 
-#: utils.py:74
+#: utils.py:75
 msgid "Sat"
 msgstr "so"
 
-#: utils.py:74
+#: utils.py:75
 msgid "Sun"
 msgstr "ne"
 
-#: utils.py:77
+#: utils.py:78
 msgid "January"
 msgstr "leden"
 
-#: utils.py:77
+#: utils.py:78
 msgid "February"
 msgstr "únor"
 
-#: utils.py:77
+#: utils.py:78
 msgid "March"
 msgstr "březen"
 
-#: utils.py:77
+#: utils.py:78
 msgid "April"
 msgstr "duben"
 
-#: utils.py:77
+#: utils.py:78
 msgid "May"
 msgstr "květen"
 
-#: utils.py:77
+#: utils.py:78
 msgid "June"
 msgstr "červen"
 
-#: utils.py:78
+#: utils.py:79
 msgid "July"
 msgstr "červenec"
 
-#: utils.py:78
+#: utils.py:79
 msgid "August"
 msgstr "srpen"
 
-#: utils.py:78
+#: utils.py:79
 msgid "September"
 msgstr "září"
 
-#: utils.py:78
+#: utils.py:79
 msgid "October"
 msgstr "říjen"
 
-#: utils.py:78
+#: utils.py:79
 msgid "November"
 msgstr "listopad"
 
-#: utils.py:79
+#: utils.py:80
 msgid "December"
 msgstr "prosinec"
 
-#: utils.py:82
+#: utils.py:83
 msgid "jan"
 msgstr "led"
 
-#: utils.py:82
+#: utils.py:83
 msgid "feb"
 msgstr "ún"
 
-#: utils.py:82
+#: utils.py:83
 msgid "mar"
 msgstr "bře"
 
-#: utils.py:82
+#: utils.py:83
 msgid "apr"
 msgstr "dub"
 
-#: utils.py:82
+#: utils.py:83
 msgid "may"
 msgstr "kvě"
 
-#: utils.py:82
+#: utils.py:83
 msgid "jun"
 msgstr "čer"
 
-#: utils.py:83
+#: utils.py:84
 msgid "jul"
 msgstr "čec"
 
-#: utils.py:83
+#: utils.py:84
 msgid "aug"
 msgstr "srp"
 
-#: utils.py:83
+#: utils.py:84
 msgid "sep"
 msgstr "zář"
 
-#: utils.py:83
+#: utils.py:84
 msgid "oct"
 msgstr "říj"
 
-#: utils.py:83
+#: utils.py:84
 msgid "nov"
 msgstr "lis"
 
-#: utils.py:83
+#: utils.py:84
 msgid "dec"
 msgstr "pro"
