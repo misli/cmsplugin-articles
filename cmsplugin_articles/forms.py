@@ -23,5 +23,6 @@ class ArticleForm(forms.ModelForm):
 
     class Meta:
         model   = get_model('Article')
+        fields = '__all__'
 
 
